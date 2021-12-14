@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    --primary: #ccdad1;
+  --secondary: #9caea9;
+  --tertiary: #788585;
+  --light-dark: #6f6866;
+  --dark: #38302e;
+  --border-radius: .3rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+
+/* header stlying */
+.header-title{
+    background: linear-gradient(rgb(36, 36, 180), rgb(56, 16, 56));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 15px;
+}
+
+/* search for city styling */
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+  }
+  
+  .card-header {
+    color: white;
+    background-color: var(--dark);
+    padding: 2.5%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+    width: 100%;
+  }
+  
+  .card-body {
+    padding: 2.5%;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .container {
+    height: 250px;
+    width: 80%;
+    border: solid 1px black;
+  }
+
+  /* search histiry list styling */
+
+.history {
+  text-align:center;
+  width: 50%;
+}
+
+  .history li{
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all .2s ease-in-out;
+  }
+
+  .history li:hover{
+  transform: scale(1.2); 
+  cursor: pointer;
+  }
+
+  /* weather forcast card styling */
+
+  .weather-forcast{
+    width: 15%;
+  }
