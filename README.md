@@ -1,7 +1,7 @@
 # Weather Dash
 
 ## Purpose 
-Search for a city and see the current, 5 day forcast, displaying temp, humidity, and more!
+Search for a city and see the current weather of today, 5 day forcast, displaying temp, humidity, and more!
 
 ## Built With ⚙
 * HTML5
